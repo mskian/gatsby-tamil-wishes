@@ -8,6 +8,7 @@ module.exports = {
   siteMetadata: {
     title: "Tamil Wishes",
     author: "Santhosh Veer",
+    siteUrl: "https://wishes.tamilwords.net",
   },
   flags: {
     DEV_SSR: false,
@@ -45,6 +46,18 @@ module.exports = {
           "https://fonts.gstatic.com",
           "https://wishes-five.vercel.app",
         ],
+      },
+    },
+    {
+      resolve: "gatsby-plugin-advanced-sitemap",
+      options: {
+        exclude: [
+          `/dev-404-page`,
+          `/404`,
+          `/404.html`,
+          `/offline-plugin-app-shell-fallback`,
+        ],
+        createLinkInHead: true,
       },
     },
   ],
