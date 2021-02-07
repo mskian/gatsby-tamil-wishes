@@ -1,0 +1,5 @@
+# Netlify redirects file, edit with your domain
+# https://www.netlify.com/docs/redirects/
+
+https://tamilwishes.netlify.app/* https://wishes.tamilwords.net/:splat 301!
+http://tamilwishes.netlify.app/* https://wishes.tamilwords.net/:splat 301!
