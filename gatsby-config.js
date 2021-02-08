@@ -45,6 +45,8 @@ module.exports = {
           "https://fonts.googleapis.com",
           "https://fonts.gstatic.com",
           "https://wishes-five.vercel.app",
+          "https://www.googletagmanager.com",
+          "https://analytics.google.com",
         ],
       },
     },
@@ -58,12 +60,6 @@ module.exports = {
           `/offline-plugin-app-shell-fallback`,
         ],
         createLinkInHead: true,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-google-gtag`,
-      options: {
-        trackingIds: ["G-16C4S2MMTJ"],
       },
     },
   ],

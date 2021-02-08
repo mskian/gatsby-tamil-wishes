@@ -177,6 +177,25 @@ class RetrieveList extends Component {
               "description": "தமிழ் புத்தாண்டு நல்வாழ்த்துக்கள் 💚 - Tamil New year Wishes and Greetings."
             }
             `}</script>
+            <script
+              async
+              src="https://www.googletagmanager.com/gtag/js?id=G-16C4S2MMTJ"
+            ></script>
+            <script>
+              {`
+            if(true) {
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+          
+              gtag('config', 'G-16C4S2MMTJ', {
+                'page_title' : '${wishername} தமிழ் புத்தாண்டு நல்வாழ்த்துக்கள்',
+                'page_location': '${pathname}'
+              });
+
+             }
+           `}
+            </script>
           </Helmet>
         </HelmetProvider>
         <div className="container content">
