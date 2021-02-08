@@ -14,6 +14,7 @@ class RetrieveList extends Component {
   constructor(props) {
     super(props)
     this.state = {
+      isLoading: true,
       persons: [],
     }
   }
@@ -60,7 +61,7 @@ class RetrieveList extends Component {
         closeButton: false,
       })
       console.log(wishes[0].content)
-      this.setState({ persons: wishes })
+      this.setState({ isLoading: false, persons: wishes })
     })
   }
   PageToast() {
@@ -200,11 +201,11 @@ class RetrieveList extends Component {
                 <Bounce>
                   <p className="has-text-centered">
                     <span role="img" aria-label="Growing Heart">
-                      💚
+                      {this.state.isLoading ? "" : "💚"}
                     </span>{" "}
                     {wishername}{" "}
                     <span role="img" aria-label="Growing Heart">
-                      💚
+                      {this.state.isLoading ? "" : "💚"}
                     </span>
                   </p>
                 </Bounce>
