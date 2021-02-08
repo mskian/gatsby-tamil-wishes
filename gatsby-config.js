@@ -60,5 +60,11 @@ module.exports = {
         createLinkInHead: true,
       },
     },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: ["G-16C4S2MMTJ"],
+      },
+    },
   ],
 }
