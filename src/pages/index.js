@@ -82,7 +82,7 @@ class RetrieveList extends Component {
     const pathname = typeof window !== "undefined" ? window.location.href : ""
     const sharetext = encodeURIComponent(
       wishername +
-        "\n Wishing you a தமிழ் புத்தாண்டு நல்வாழ்த்துக்கள் \n" +
+        " Wishing you a தமிழ் புத்தாண்டு நல்வாழ்த்துக்கள் " +
         pathname
     )
     const Whatsappshare = `https://api.whatsapp.com/send/?text=${sharetext}`
