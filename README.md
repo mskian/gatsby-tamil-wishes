@@ -4,13 +4,11 @@
 
 Tamil Wishes - Tamil Festival SMS Wishes and Tamil Greetings 💗
 
-⚛ React + GatsbyJS | ⚡ Speed | ☁ Offline | 🌩 PWA
+⚛ React + GatsbyJS | ⚡ Speed  
 
 ## Features 🍔
 
 - React + GatsbyJS
-- PWA
-- Offline Suppport
 - Bulma CSS
 - Power Packed with React and Gatsby Modules
 - Name Wishing API
