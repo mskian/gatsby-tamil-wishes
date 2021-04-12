@@ -210,7 +210,7 @@ class RetrieveList extends Component {
                     cursor={{ hideWhenDone: true }}
                   >
                     {" "}
-                    தமிழ் புத்தாண்டு நல்வாழ்த்துக்கள்{" "}
+                    புத்தாண்டு நல்வாழ்த்துக்கள்{" "}
                     <span role="img" aria-label="Growing Heart">
                       💛
                     </span>
@@ -251,15 +251,11 @@ class RetrieveList extends Component {
                       💚
                     </span>
                     <br />
-                    <br />
                     இந்த ஆண்டை கடப்போம்
-                    <br />
                     <br />
                     இனி வரும் காலம் இனிதே
                     <br />
-                    <br />
                     உதயமாகட்டும்
-                    <br />
                     <br />{" "}
                     <span role="img" aria-label="Growing Heart">
                       புத்தாண்டு நல்வாழ்த்துக்கள் 💗
@@ -341,27 +337,6 @@ class RetrieveList extends Component {
                 </a>
               </div>
               <hr />
-              <div className="subscribe-form">
-                <p className="has-text-dark has-text-weight-medium has-text-centered">
-                  Random Tamil Words{" "}
-                  <span role="img" aria-label="robot">
-                    🔀
-                  </span>{" "}
-                  - Get Random Tamil Words, Commonly spoken Tamil words with
-                  English Meaning{" "}
-                  <span role="img" aria-label="heart">
-                    💜
-                  </span>
-                </p>
-                <a
-                  href="https://tamilwords.net/"
-                  className="button-link"
-                  target="_blank"
-                  rel="nofollow noopener noreferrer"
-                >
-                  <span>▶ Get Now</span>
-                </a>
-              </div>
               <br />
             </div>
           </div>

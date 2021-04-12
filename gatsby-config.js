@@ -14,7 +14,6 @@ module.exports = {
     DEV_SSR: false,
   },
   plugins: [
-    "gatsby-plugin-offline",
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -33,25 +32,25 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-html-attributes",
+      resolve: `gatsby-plugin-html-attributes`,
       options: {
-        lang: "en",
+        lang: `en`,
       },
     },
     {
-      resolve: "gatsby-plugin-preconnect",
+      resolve: `gatsby-plugin-preconnect`,
       options: {
         domains: [
-          "https://fonts.googleapis.com",
-          "https://fonts.gstatic.com",
-          "https://wishes-five.vercel.app",
-          "https://www.googletagmanager.com",
-          "https://analytics.google.com",
+          `https://fonts.googleapis.com`,
+          `https://fonts.gstatic.com`,
+          `https://wishes-five.vercel.app`,
+          `https://www.googletagmanager.com`,
+          `https://analytics.google.com`,
         ],
       },
     },
     {
-      resolve: "gatsby-plugin-advanced-sitemap",
+      resolve: `gatsby-plugin-advanced-sitemap`,
       options: {
         exclude: [
           `/dev-404-page`,
@@ -62,5 +61,6 @@ module.exports = {
         createLinkInHead: true,
       },
     },
+    `gatsby-plugin-react-helmet-async`,
   ],
 }
