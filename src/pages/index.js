@@ -246,19 +246,23 @@ class RetrieveList extends Component {
               <Slide triggerOnce>
                 <div className="notification has-text-weight-bold read-more">
                   <p className="has-text-weight-bold has-text-left">
-                    இனிமையான நினைவுகளோடு{" "}
+                    தமிழ் புத்தாண்டு வாழ்த்துக்கள்{" "}
                     <span role="img" aria-label="Growing Heart">
                       💚
                     </span>
                     <br />
-                    இந்த ஆண்டை கடப்போம்
+                    மன வலிமையுடன்
                     <br />
-                    இனி வரும் காலம் இனிதே
+                    வாழ்க்கையில் இருக்கும்
                     <br />
-                    உதயமாகட்டும்
+                    வலிகள் மற்றும்
+                    <br />
+                    கஷ்டங்களை கடத்துவிட்டு
+                    <br />
+                    வெற்றியுடன்
                     <br />{" "}
                     <span role="img" aria-label="Growing Heart">
-                      புத்தாண்டு நல்வாழ்த்துக்கள் 💗
+                      இந்த இனியநாளை கொண்டாடுவோம் 💗
                     </span>
                   </p>
                 </div>
@@ -267,15 +271,7 @@ class RetrieveList extends Component {
               <br />
               <div className="notification is-warning has-text-weight-bold">
                 <br />
-                <h3 className="has-text-centered">
-                  Create your Own{" "}
-                  <span role="img" aria-label="burger">
-                    🍔
-                  </span>
-                </h3>
-                <div className="has-text-centered">
-                  <small>Enter Your Name</small>
-                </div>
+                <h3 className="has-text-centered">Create your Own</h3>
                 <br />
                 <div className="control">
                   <input
@@ -293,7 +289,7 @@ class RetrieveList extends Component {
                   className="button is-link read-random sign-button"
                   type="submit"
                 >
-                  Create Wishes
+                  Create Wish
                 </button>
                 <br />
               </div>
@@ -322,7 +318,7 @@ class RetrieveList extends Component {
                   rel="nofollow noopener noreferrer"
                 >
                   <span role="img" aria-label="burger">
-                    🍔 Whatsapp
+                    ⏺ Whatsapp
                   </span>
                 </a>
                 <a
@@ -332,7 +328,7 @@ class RetrieveList extends Component {
                   rel="nofollow noopener noreferrer"
                 >
                   <span role="img" aria-label="bot">
-                    🤖 Telegram
+                    ⏺ Telegram
                   </span>
                 </a>
               </div>
