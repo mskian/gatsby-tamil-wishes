@@ -38,7 +38,7 @@
     "react-helmet-async": "^1.0.9",
     "react-toastify": "^7.0.4",
     "react-typist": "^2.0.5",
-    "slugify": "^1.5.2"
+    "slugify": "^1.5.3"
   },
   "devDependencies": {
     "prettier": "2.2.1"
